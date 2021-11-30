@@ -24,6 +24,20 @@
     float: right;
 }
 
+section {
+    overflow: auto;
+    clear: both;
+    width: 100%;
+}
+
+#sideNav {
+    height: 100%;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    background-color: yellowgreen;
+}
+
 body {
     font-size: 16px;
     line-height: 1;
