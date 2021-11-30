@@ -16,5 +16,75 @@
     <body>
         <!-- header -->
         <header id="header">Weather Dashboard</header>
+        <!-- search -->
+        <div class="sidenav" id="weatherInput">
+            <h1>Search a area:</h1>
+
+            <div class="input-group col-md-10">
+                <input class="form-control py-2" type="search" value="search" id="example-search-input">
+                <span class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+
+            <!-- prepend search -->
+            <div class="cityButtons"></div>
+        </div>
+        <!-- big container -->
+        <main class="container">
+
+            <!-- row displaying weather-->
+            <div class="row" id="daily">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="body">
+                            <p>
+
+
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5day row -->
+            <div class="row" id="fiveDay">
+                <div class="card col-md-12">
+                    <h2>5-Day Forecast</h2>
+                    <div class="card">
+
+                        <div class="body">
+
+                            <div class="card col-md-2" id="day1">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Date</li>
+                                    <li class="list-group-item">Picture</li>
+                                    <li class="list-group-item">Temp</li>
+                                    <li class="list-group-item">Humidity</li>
+                                </ul>
+                            </div>
+
+                            <div class="card col-md-2" id="day2">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Date</li>
+                                    <li class="list-group-item">Picture</li>
+                                    <li class="list-group-item">Temp</li>
+                                    <li class="list-group-item">Humidity</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- javascript jquery and moment links -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
