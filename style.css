@@ -54,14 +54,22 @@ header {
 h1 {
     font-size: 20px;
     text-align: left;
-    padding: 10px;
+    padding: 20px 0px 10px 5px;
+}
+
+#basic-text1 {
+    background-color: yellowgreen;
+}
+
+.fas {
+    color: black;
 }
 
 h2 {
     font-size: 30px;
     text-align: left;
-    font-weight: bolder !important;
-    padding: 15px 15px 15px 5px;
+    font-weight: bolder;
+    padding: 20px;
 }
 
 .input-group col {
