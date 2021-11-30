@@ -91,8 +91,35 @@ p {
 
 #fiveDay {
     padding-top: 20px;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 30px;
 }
 
+#dailyForcast {
+    width: 100%;
+    padding: 0;
+    margin: 5px 0px 0px 15px;
+}
+
+.card-body {
+    background-color: blue;
+    color: white;
+}
+
+#card-header {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.card-text {
+    font-size: 13px;
+    line-height: 50px;
+    padding: 0;
+}
 .list-group .list-group-flush {
     background-color: blue;
 }
